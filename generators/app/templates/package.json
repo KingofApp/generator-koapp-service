@@ -1,0 +1,12 @@
+{
+  "name": "koapp-service-<%- pluginName %>",
+  "version": "0.0.1",
+  "description": "<%- englishDescription %>",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "jsesc": "^2.2.0"
+  },
+  "author": "<%- userName %>",
+  "license": "<%- license %>",
+  "keywords": ["koapp", "koapp service", "king of app"]
+}

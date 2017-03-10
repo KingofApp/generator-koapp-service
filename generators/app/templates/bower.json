@@ -1,0 +1,13 @@
+{
+  "name": "<%- pluginName %>",
+  "authors": "<%- userName %>",
+  "description": "<%- englishDescription %>",
+  "keywords": [
+    "kingofapp",
+    "service"
+  ],
+  "license": "<%- license %>",
+  "homepage": "<%- homepage %>",
+  "private": true,
+  "dependencies": {}
+}

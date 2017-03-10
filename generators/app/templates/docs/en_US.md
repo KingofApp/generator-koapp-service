@@ -1,0 +1,5 @@
+# Documentation
+
+### <%= varPluginName %>
+
+<%- englishDescription %>

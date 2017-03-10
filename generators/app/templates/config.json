@@ -1,0 +1,50 @@
+{
+  "name": "<%- pluginName %>",
+  "identifier": "<%- pluginName %>",
+  "description": {
+    "es-ES": "<%- spanishDescription %>",
+    "en-US": "<%- englishDescription %>"
+  },
+  "documentation": {
+    "es-ES": "services/<%= pluginName %>/docs/es_ES.md",
+    "en-US": "services/<%= pluginName %>/docs/en_US.md"
+  },
+  "descriptionShort": {
+    "es-ES": "<%- spanishDescription %>",
+    "en-US": "<%- englishDescription %>"
+  },
+  "icon": "room",
+  "type": "A",
+  "version": "0.0.1",
+  "author": "<%- userName %>",
+  "category": <%- categories %>,
+  "price": <%- price %>,
+  "subscription": false,
+  "canContain": false,
+  "platforms": [
+    "android",
+    "ios",
+    "windows"
+  ],
+  "view": "services/<%= pluginName %>/index.html",
+  "files": [
+    "services/<%= pluginName %>/controller.js", "services/<%= pluginName %>/style.html"
+  ],
+  "scope": {"demoKey": "demo text"},
+  "libs": [],
+  "config": [],
+  "showOn": {
+    "menu": true,
+    "market": true,
+    "dragDrop": true
+  },
+  "images": {
+    "list": "services/<%= pluginName %>/images/list.png",
+    "screenshots": [
+      "services/<%= pluginName %>/images/screenshot01.png"
+    ],
+    "popover": "services/<%= pluginName %>/images/popover.png",
+    "banner": "services/<%= pluginName %>/images/banner.png",
+    "logo": "services/<%= pluginName %>/images/logo.png"
+  }
+}
