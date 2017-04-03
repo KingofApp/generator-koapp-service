@@ -1,23 +1,23 @@
-# generator-koapp-module
+# generator-koapp-service
 
 ![Koa-logo](http://kingofapp.es/wp-content/uploads/2015/02/logoking-r1.png)
 
-> Scaffold out a King of App Module
+> Scaffold out a King of App service
 
 ### Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-koapp-module using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-koapp-service using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
 npm install -g gulp
-npm install -g generator-koapp-module
+npm install -g generator-koapp-service
 ```
 
-Generate your new module:
+Generate your new service:
 
 ```bash
-yo koapp-module moduleName
+yo koapp-service serviceName
 ```
 
 Optionally, you can include the following flags:
@@ -30,7 +30,7 @@ Optionally, you can include the following flags:
 * `-l license`
 * `-c categories` separated by comma
 
-Then start your new module:
+Then start your new service:
 
 ```bash
 cd {Project-name} && gulp
@@ -61,7 +61,7 @@ If you want to improve the code, please follow these steps and submit a pull req
 
 - Download
 ```bash
-git clone https://github.com/KingofApp/generator-koapp-module.git && cd generator-koapp-module
+git clone https://github.com/KingofApp/generator-koapp-service.git && cd generator-koapp-service
 ```
 
 - Install all dependencies

@@ -3,7 +3,7 @@ var path = require('path');
 var assert = require('yeoman-assert');
 var helpers = require('yeoman-test');
 
-describe('generator-koa-module:app', function () {
+describe('generator-koapp-service:app', function () {
   this.timeout(15000);
 
   var anwsers = {
@@ -74,18 +74,18 @@ describe('generator-koa-module:app', function () {
       author: anwsersExpected.userName,
       category: anwsersExpected.categories,
       price: anwsersExpected.price,
-      view: 'modules/' + anwsersExpected.pluginName + '/index.html',
+      view: 'services/' + anwsersExpected.pluginName + '/index.html',
       files: [
-        'modules/' + anwsersExpected.pluginName + '/controller.js', 'modules/' + anwsersExpected.pluginName + '/style.html'
+        'services/' + anwsersExpected.pluginName + '/controller.js', 'services/' + anwsersExpected.pluginName + '/style.html'
       ],
       images: {
-        list: 'modules/' + anwsersExpected.pluginName + '/images/list.png',
+        list: 'services/' + anwsersExpected.pluginName + '/images/list.png',
         screenshots: [
-          'modules/' + anwsersExpected.pluginName + '/images/screenshot01.png'
+          'services/' + anwsersExpected.pluginName + '/images/screenshot01.png'
         ],
-        popover: 'modules/' + anwsersExpected.pluginName + '/images/popover.png',
-        banner: 'modules/' + anwsersExpected.pluginName + '/images/banner.png',
-        logo: 'modules/' + anwsersExpected.pluginName + '/images/logo.png'
+        popover: 'services/' + anwsersExpected.pluginName + '/images/popover.png',
+        banner: 'services/' + anwsersExpected.pluginName + '/images/banner.png',
+        logo: 'services/' + anwsersExpected.pluginName + '/images/logo.png'
       }
     });
   });

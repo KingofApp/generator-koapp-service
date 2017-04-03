@@ -1,4 +1,4 @@
-(function() {
+(function () {
   'use strict';
 
   angular
@@ -14,4 +14,4 @@
     console.info('Hi! from <%= varPluginName %>Controller');
     // --- End <%= varPluginName %>Controller content ---
   }
-}());
+})();
