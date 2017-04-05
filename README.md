@@ -45,13 +45,8 @@ cd {Project-name} && gulp
 
 **All Tasks**
 
-- `gulp lint` Linter for your code.
-- `gulp e2e` It runs integration test with Protractor.
 - `gulp jsdoc` It creates JsDoc documentation.
-- `gulp dist-zip` It generates a compression file ready to upload
 - `gulp watch-documentation` It is monitoring for changes in documentation, also it will update config.json
-- `gulp watch-bower` It's monitoring for changes in bower.json.
-- `gulp watch-config` It's monitoring for changes in config.json,  also it will update a../../app/core/structure.json
 
 ### Contribution
 
