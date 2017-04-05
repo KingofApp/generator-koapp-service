@@ -1,6 +1,6 @@
 {
   "name": "generator-koapp-service",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Scaffold out a King of App Service.",
   "main": "generators/app/index.js",
   "scripts": {
@@ -20,6 +20,11 @@
       "name": "Fran Quesada",
       "email": "paco@kingofapp.es",
       "url": "https://github.com/totegsito"
+    },
+    {
+      "name": "Jesús Mendoza",
+      "email": "jesus@kingofapp.es",
+      "url": "http://github.com/jesusz0r"
     }
   ],
   "dependencies": {
