@@ -51,6 +51,7 @@ module.exports = yeoman.Base.extend({
       'service.js',
       'README.md',
       'config.json',
+      'bower.json',
       'package.json',
       'locale/en_US.json',
       'locale/es_ES.json',
