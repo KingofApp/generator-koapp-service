@@ -1,6 +1,6 @@
 {
   "name": "generator-koapp-service",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Scaffold out a King of App Service.",
   "main": "generators/app/index.js",
   "scripts": {
@@ -20,27 +20,31 @@
       "name": "Fran Quesada",
       "email": "paco@kingofapp.es",
       "url": "https://github.com/totegsito"
+    },
+    {
+      "name": "Jesús Mendoza",
+      "email": "jesus@kingofapp.es",
+      "url": "http://github.com/jesusz0r"
     }
   ],
   "dependencies": {
-    "chalk": "^1.0.0",
     "eslint-config-xo": "^0.15.4",
-    "koapp": "^0.0.6",
-    "yeoman-generator": "^0.23.0",
-    "yosay": "^1.0.0"
+    "koapp": "^0.2.3",
+    "yeoman-generator": "^0.23.0"
   },
   "devDependencies": {
-    "yeoman-test": "1.0.0",
-    "yeoman-assert": "2.0.0",
     "eslint": "3.1.1",
     "eslint-config-xo-space": "0.14.0",
     "gulp": "3.9.0",
-    "gulp-eslint": "2.0.0",
+    "gulp-eslint": "^2.0.0",
     "gulp-exclude-gitignore": "1.0.0",
-    "gulp-line-ending-corrector": "1.0.1",
     "gulp-istanbul": "1.0.0",
+    "gulp-line-ending-corrector": "1.0.1",
+    "gulp-mocha": "^4.3.0",
+    "gulp-nsp": "2.1.0",
     "gulp-plumber": "1.0.0",
-    "gulp-nsp": "2.1.0"
+    "yeoman-assert": "^3.0.0",
+    "yeoman-test": "^1.6.0"
   },
   "eslintConfig": {
     "extends": "xo-space",
