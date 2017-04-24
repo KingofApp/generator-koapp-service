@@ -52,7 +52,7 @@ describe('generator-koapp-service:app', function () {
       .withOptions(answers)
       .on('end', done);
   });
-  
+
   filesToCheck.forEach(function (key) {
     it('creates file ' + key, function () {
       assert.file([

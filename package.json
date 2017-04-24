@@ -6,7 +6,7 @@
   "scripts": {
     "test": "gulp"
   },
-  "repository": "KingofaApp/generator-koapp-service",
+  "repository": "https://github.com/KingofApp/generator-koapp-service",
   "keywords": [
     "yeoman-generator",
     "king of app",
@@ -14,7 +14,11 @@
     "angular",
     "koapp-service"
   ],
-  "author": "King of App",
+  "author": {
+    "name": "koapp",
+    "email": "contact@kingofapp.es",
+    "url": "http://www.kingofapp.com"
+  },
   "contributors": [
     {
       "name": "Fran Quesada",
@@ -29,6 +33,7 @@
   ],
   "dependencies": {
     "eslint-config-xo": "^0.15.4",
+    "gulp": "^3.9.0",
     "koapp": "^0.2.3",
     "yeoman-generator": "^0.23.0"
   },
