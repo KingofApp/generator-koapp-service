@@ -4,6 +4,7 @@ var assert = require('yeoman-assert');
 var helpers = require('yeoman-test');
 
 describe('generator-koapp-service:app', function () {
+  this.timeout(10000);
   var answers = {
     pluginName: 'new service',
     userName: 'Yo Mismo',
