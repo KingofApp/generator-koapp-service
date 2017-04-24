@@ -1,12 +1,12 @@
 {
   "name": "generator-koapp-service",
-  "version": "0.1.1",
+  "version": "1.0.1",
   "description": "Scaffold out a King of App Service.",
   "main": "generators/app/index.js",
   "scripts": {
     "test": "gulp"
   },
-  "repository": "KingofaApp/generator-koapp-service",
+  "repository": "https://github.com/KingofApp/generator-koapp-service",
   "keywords": [
     "yeoman-generator",
     "king of app",
@@ -14,7 +14,11 @@
     "angular",
     "koapp-service"
   ],
-  "author": "King of App",
+  "author": {
+    "name": "koapp",
+    "email": "contact@kingofapp.es",
+    "url": "http://www.kingofapp.com"
+  },
   "contributors": [
     {
       "name": "Fran Quesada",
@@ -35,7 +39,7 @@
   "devDependencies": {
     "eslint": "3.1.1",
     "eslint-config-xo-space": "0.14.0",
-    "gulp": "3.9.0",
+    "gulp": "^3.9.0",
     "gulp-eslint": "^2.0.0",
     "gulp-exclude-gitignore": "1.0.0",
     "gulp-istanbul": "1.0.0",
